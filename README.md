@@ -28,3 +28,14 @@ The dataset used in this project contains images of individuals with and without
 - **Without Mask**: Images of people without face masks.
 
 Ensure the dataset is organized into separate folders for each class:
+
+
+If you are using a custom dataset, ensure it follows the same structure.
+
+## How to Use
+
+1. Clone this repository or upload the notebook to your environment.
+2. Install the required dependencies:
+   ```bash
+   pip install tensorflow opencv-python numpy scikit-learn
+

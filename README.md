@@ -7,6 +7,7 @@ This project implements a face mask detection system using deep learning techniq
 - Dataset preprocessing using image augmentation.
 - Training a convolutional neural network (CNN) for classification.
 - Model evaluation with confusion matrix and classification report.
+- Achieved high accuracy of **98%**.
 - Integration with Google Colab for cloud-based execution.
 
 ## Libraries Used
@@ -16,4 +17,14 @@ The following libraries are used in the project:
 - **TensorFlow and Keras**: For building and training the neural network.
 - **OpenCV**: For image processing.
 - **NumPy**: For numerical computations.
-- **Scikit
+- **Scikit-learn**: For evaluation metrics.
+- **Google Colab Utilities**: For mounting and accessing Google Drive.
+
+## Dataset
+
+The dataset used in this project contains images of individuals with and without face masks. The dataset is structured into two main categories:
+
+- **With Mask**: Images of people wearing face masks.
+- **Without Mask**: Images of people without face masks.
+
+Ensure the dataset is organized into separate folders for each class:
